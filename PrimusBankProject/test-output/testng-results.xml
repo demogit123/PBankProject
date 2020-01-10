@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PrimusBank Test Suite" duration-ms="23342" started-at="2019-12-20T03:32:56Z" finished-at="2019-12-20T03:33:19Z">
+    <groups>
+    </groups>
+    <test name="AdminLogin TestCase" duration-ms="12640" started-at="2019-12-20T03:32:56Z" finished-at="2019-12-20T03:33:08Z">
+      <class name="primusbank.tests.AdminLoginTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:primusbank.tests.AdminLoginTest@1810399e]" name="launchApp" is-config="true" duration-ms="8218" started-at="2019-12-20T09:02:56Z" finished-at="2019-12-20T09:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkAdminLogin(java.lang.String, java.lang.String)[pri:0, instance:primusbank.tests.AdminLoginTest@1810399e]" name="checkAdminLogin" duration-ms="4089" started-at="2019-12-20T09:03:04Z" finished-at="2019-12-20T09:03:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:primusbank.tests.AdminLoginTest@1810399e]" name="closeApp" is-config="true" duration-ms="258" started-at="2019-12-20T09:03:08Z" finished-at="2019-12-20T09:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- primusbank.tests.AdminLoginTest -->
+    </test> <!-- AdminLogin TestCase -->
+    <test name="BankerLogin TestCase" duration-ms="10655" started-at="2019-12-20T03:33:08Z" finished-at="2019-12-20T03:33:19Z">
+      <class name="primusbank.tests.BankerLoginTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:primusbank.tests.BankerLoginTest@1753acfe]" name="launchApp" is-config="true" duration-ms="5331" started-at="2019-12-20T09:03:08Z" finished-at="2019-12-20T09:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="checkBankerLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:primusbank.tests.BankerLoginTest@1753acfe]" name="checkBankerLogin" duration-ms="3087" started-at="2019-12-20T09:03:14Z" finished-at="2019-12-20T09:03:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ameerpet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBankerLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:primusbank.tests.BankerLoginTest@1753acfe]" name="closeApp" is-config="true" duration-ms="2226" started-at="2019-12-20T09:03:17Z" finished-at="2019-12-20T09:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- primusbank.tests.BankerLoginTest -->
+    </test> <!-- BankerLogin TestCase -->
+  </suite> <!-- PrimusBank Test Suite -->
+</testng-results>
